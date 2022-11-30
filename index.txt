@@ -6,20 +6,20 @@ Objetivo: Estudar mais sobre Cloud e serviços AWS.
 - AWS: Amazon web services (Maior seguidora do ramo de cloud atualmente).
 
 -------------------// Vantagens de se utilizar:
-  * Economia, pois montar servidores (Infraestrutura) é caro.
-  
+	* Economia, pois montar servidores (Infraestrutura) é caro.
+
 	* Maior escalabilidade (Netflix, spotify, google antigamente..)
 	devido a distribuição geográfica dos servidores da amazon.
-  
+
 	* Não é necessaŕio espaço fisíco (Mais economia e menor manutenção).
-  
+
 	* Não precisa conhecer protocolos dentre outras informações relacionados a infra.
-  
+
 	* Paga apenas pelo que utiliza (e um valor pequeno se comparado a não utilizar).
-  
+
 	* Possibilita trabalhos em home office (Pois o servidor não é interno, 
-  em outros casos é possível porém com uso de VPN).
-  
+	em outros casos é possível porém com uso de VPN).
+
 	* Com isto, podemos acessar varias informações em qualquer lugar do mundo, 
 	pois grande parte dele possui servidores amazon.
 
