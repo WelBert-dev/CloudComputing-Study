@@ -1,0 +1,61 @@
+Data: 30/11/2022 
+Objetivo: Estudar mais sobre Cloud e serviços AWS. 
+
+- Trabalho do curso, então resolvi manter um histórico do conhecimento para futuras consultas.
+
+- AWS: Amazon web services (Maior seguidora do ramo de cloud atualmente).
+
+-------------------// Vantagens de se utilizar:
+  * Economia, pois montar servidores (Infraestrutura) é caro.
+  
+	* Maior escalabilidade (Netflix, spotify, google antigamente..)
+	devido a distribuição geográfica dos servidores da amazon.
+  
+	* Não é necessaŕio espaço fisíco (Mais economia e menor manutenção).
+  
+	* Não precisa conhecer protocolos dentre outras informações relacionados a infra.
+  
+	* Paga apenas pelo que utiliza (e um valor pequeno se comparado a não utilizar).
+  
+	* Possibilita trabalhos em home office (Pois o servidor não é interno, 
+  em outros casos é possível porém com uso de VPN).
+  
+	* Com isto, podemos acessar varias informações em qualquer lugar do mundo, 
+	pois grande parte dele possui servidores amazon.
+
+-------------------// Conceito de Região: Localização fisica dos data-centers da AWS. 
+(Para cada região podemos ter inumeras zonas de disponibilidade).
+
+-------------------// Conceito Blocos de construção/Zona de Disponibilidade: 
+  Localização lógica que os data-centers provem ou seja, aonde os serviços iram estar disponíveis.
+  - Isto é: Representa um ou mais data-centers ineterconectados que provem essa disponibilidade.
+  - Totalmente independestes umas das outras (Zona de disponibilidade) ou seja, 
+  em caso de falhas de hardware em um por N motivos, o outro supri. (backups)
+  
+-------------------// On Premises vs Cloud: 
+conceitos relacionados aos data-centers, aonde On Promises seria o "Local" e o Cloud os serviços da AWS.
+
+ On Promises   Cloud
+ [Netflix] <=> [AWS]
+
+-------------------// Principais serviços da AWS:
+  * Warehouse do Amazon Redshift:
+  
+  * Amazon S3: Serviço de backup (Bucket) distribuido aonde é possível realiza-los de forma automática, 
+    aqui escolhemos o bucket de origem (Que desejamos transportar) e o destino (Zona de Disponibilidade de acordo com a região).
+    - Bucket: Basicamente é o "Balde" ou seja o container com os arquivos/Objetos que queremos "transportar".
+    - Para cada Bucket criado uma senha. (Ou seja é privado, apenas quem possuí essa senha pode acessar).
+    - Ditamos regras/politicas/rules para esses disparos automáticos ocorrerem.
+    
+  * Amazon Glacier:
+ 
+-------------------// AWS Management console: Interface (Abstração) para interações nos serviços AWS. "Painel de controle".
+
+
+-------------------// Mercado de trabalho para profissionais capacitados neste produto: Salarios podem chegar até R$7.249 - R$23.000
+
+- DevOps (Meio de campo entre o dev e o deploy).
+- Engenheiro de Cloud.
+- Administrador de servidor.
+- AWS.
+
